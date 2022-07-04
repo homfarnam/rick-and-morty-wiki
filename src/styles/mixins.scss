@@ -1,0 +1,25 @@
+@import '/src/styles/dimens.scss';
+
+@mixin mobile {
+  @media (max-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$breakpoint-tablet + 1}) and (max-width: #{$breakpoint-laptop}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: #{$breakpoint-laptop + 1}) and (max-width: #{$breakpoint-desktop}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$breakpoint-desktop + 1}) {
+    @content;
+  }
+}

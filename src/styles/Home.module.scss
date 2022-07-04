@@ -1,0 +1,27 @@
+@import 'mixins.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
+  gap: 32px;
+
+  @include laptop {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+
+  * {
+    justify-self: center;
+  }
+}
