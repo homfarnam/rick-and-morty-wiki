@@ -1,0 +1,39 @@
+@import 'src/styles/mixins.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 32px;
+
+  @include laptop {
+    gap: 24px;
+  }
+
+  @include tablet {
+    gap: 16px;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    @include laptop {
+      gap: 24px;
+    }
+
+    @include tablet {
+      gap: 16px;
+    }
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+  }
+}
