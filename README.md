@@ -2,7 +2,7 @@
 
 Is a project that brings you rick and morty characters information includes location, episodes.
 
-See demo here [https://ricky-morty-wiki.vercel.app/](https://ricky-morty-wiki.vercel.app/).
+See demo here [https://rick-and-morty-wiki-ebon.vercel.app/).
 
 ## 🔗 Reference
 
