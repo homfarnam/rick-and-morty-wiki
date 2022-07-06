@@ -1,4 +1,4 @@
-# Ricky Morty Wiki
+# Ricky and Morty Wiki
 
 Is a project that brings you rick and morty characters information includes location, episodes.
 
