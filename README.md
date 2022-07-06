@@ -205,3 +205,8 @@ You should get the response like this.
 #### Web Services
 
 - React-query queries for fetch API. Located in `src/services/index.ts` directory
+
+
+## RoadAhead
+
+If it was a real task and project, I could create CI/CD and some more tests like cypress for that.
